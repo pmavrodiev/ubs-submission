@@ -13,6 +13,6 @@ Try to reduce the number of features. In the dataset you have over 100 features.
 
 In addition to solving the two tasks above we ask you to create a short presentation (not more than 10 slides) outlining your approach, analysis, results and challenges encounted. We will then use the presentation as a starting point during our final discussion.
 
-Please add all documents related to your submission (source files, presentation files, etc.) to the `solution/` folder. You can push directly into this repository, however, if you choose to create a pull request, that would also be fine.
+Please add all documents related to your submission (source files, presentation files, etc.) to the `solution/` folder. You can either push directly into this repository or, should you choose so, create a pull request. You are free to use any programming language you wish, however, since Python is the de-facto standard language for data-science, we encourage you to use it.
 
 **Note**: Your submission will be judged on a compound evaluation of your approach, code quality and results. Note that for open-ended tasks we give much more weight to a well-justified approach, rather than to complete results.
