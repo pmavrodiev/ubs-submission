@@ -59,10 +59,10 @@ names = [
 classifiers = [
     SVC(kernel="linear", C=0.025),
     SVC(),
-    DecisionTreeClassifier(max_depth=5),
-    RandomForestClassifier(max_depth=5, n_estimators=100, max_features=1),
+    DecisionTreeClassifier(max_depth=5, random_state=0),
+    RandomForestClassifier(max_depth=5, n_estimators=100,random_state=0, max_features=1),
     #to avoid overfitting define early_stopping
-    MLPClassifier(hidden_layer_sizes=(100), alpha=1, max_iter=1000, early_stopping=True),
+    MLPClassifier(hidden_layer_sizes=(100), alpha=1, max_iter=1000, random_state=0, early_stopping=True),
     AdaBoostClassifier(),
     GaussianNB()
 ]
