@@ -65,7 +65,7 @@ component_names = [f'PC{i+1}' for i in range(X_valid_pca.shape[1])]
 X_valid_pca = pd.DataFrame(X_valid_pca, columns=component_names)
 
 #Calculate MI Scores
-mi_scores_pca = make_mi_scores(X_pca, y_train, discrete_features=False)
+mi_scores_pca = make_mi_scores(X_pca, y_train)
 
 #Choose the best features according to MI Score
 best_features_pca=mi_scores_pca[mi_scores_pca>0.05].index
